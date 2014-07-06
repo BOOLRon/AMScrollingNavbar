@@ -59,6 +59,7 @@
  */
 - (void)setScrollingEnabled:(BOOL)enabled;
 
+- (void)setHeadViewHeight:(CGFloat)height;
 
 - (BOOL)isDraging;
 

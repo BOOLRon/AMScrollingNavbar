@@ -205,7 +205,7 @@
 		}
         
         // Prevents the navbar from moving during the 'rubberband' scroll
-        if ([self contentoffset].y < 0) {
+        if ([self contentoffset].y < self.beginDistance) {
             return;
         }
 		if (self.expanded) {
@@ -379,6 +379,15 @@
     self.navigationItem.rightBarButtonItem.customView.alpha = alpha;
 	self.navigationItem.titleView.alpha = alpha;
 	self.navigationController.navigationBar.tintColor = [self.navigationController.navigationBar.tintColor colorWithAlphaComponent:alpha];
+}
+
+
+- (void)setBeginDistance:(float)beginDistance { objc_setAssociatedObject(self, @selector(beginDistance), [NSNumber numberWithFloat:beginDistance], OBJC_ASSOCIATION_RETAIN); }
+- (float)beginDistance { return [objc_getAssociatedObject(self, @selector(beginDistance)) floatValue]; }
+
+
+- (void)setHeadViewHeight:(CGFloat)height{
+    self.beginDistance = height;
 }
 
 - (BOOL)isDraging{

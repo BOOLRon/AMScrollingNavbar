@@ -26,6 +26,7 @@
 		65BF9E69182E5AB70092BF7F /* AMScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65BF9E68182E5AB70092BF7F /* AMScrollViewController.m */; };
 		65BF9E6C182E5AC70092BF7F /* AMWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65BF9E6B182E5AC70092BF7F /* AMWebViewController.m */; };
 		65BF9E6F182E5AD40092BF7F /* AMTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65BF9E6E182E5AD40092BF7F /* AMTableViewController.m */; };
+		E45DCBD219695685007AC339 /* AMMYTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E45DCBD119695685007AC339 /* AMMYTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +69,8 @@
 		65BF9E6D182E5AD40092BF7F /* AMTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMTableViewController.h; sourceTree = "<group>"; };
 		65BF9E6E182E5AD40092BF7F /* AMTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMTableViewController.m; sourceTree = "<group>"; };
 		8489AA7F1845642D00C862B1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E45DCBD019695685007AC339 /* AMMYTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMMYTableViewController.h; sourceTree = "<group>"; };
+		E45DCBD119695685007AC339 /* AMMYTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMMYTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,6 +134,8 @@
 				652B447E182D376600D01F5C /* AMAppDelegate.h */,
 				652B447F182D376600D01F5C /* AMAppDelegate.m */,
 				652B4481182D376600D01F5C /* Main.storyboard */,
+				E45DCBD019695685007AC339 /* AMMYTableViewController.h */,
+				E45DCBD119695685007AC339 /* AMMYTableViewController.m */,
 				65BF9E66182E5A9C0092BF7F /* ViewControllers */,
 				652B4487182D376600D01F5C /* Images.xcassets */,
 				652B4476182D376600D01F5C /* Supporting Files */,
@@ -297,6 +302,7 @@
 				65BF9E6F182E5AD40092BF7F /* AMTableViewController.m in Sources */,
 				652B4480182D376600D01F5C /* AMAppDelegate.m in Sources */,
 				65BF9E6C182E5AC70092BF7F /* AMWebViewController.m in Sources */,
+				E45DCBD219695685007AC339 /* AMMYTableViewController.m in Sources */,
 				65BF9E69182E5AB70092BF7F /* AMScrollViewController.m in Sources */,
 				652B4486182D376600D01F5C /* AMViewController.m in Sources */,
 				652B447C182D376600D01F5C /* main.m in Sources */,
