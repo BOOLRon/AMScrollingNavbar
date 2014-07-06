@@ -31,7 +31,7 @@
  *
  * @param scrollableView The UIView where the scrolling is performed.
  */
-- (void)followScrollView:(UIView *)scrollableView;
+- (void)followScrollView:(UIView*)scrollableView;
 
 /** Navbar slide down
  *
@@ -58,6 +58,18 @@
  * Set this property to NO to disable the scrolling of the navbar.
  */
 - (void)setScrollingEnabled:(BOOL)enabled;
+
+
+- (BOOL)isDraging;
+
+- (BOOL)isShowingNavBar;
+/**
+ *  progress of showing NavigationBar
+ *
+ *  @return progress value from 0.0 to 1.0
+ */
+- (CGFloat)progressOnShowNavBar;
+
 
 @end
 
